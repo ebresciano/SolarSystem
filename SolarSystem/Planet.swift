@@ -15,14 +15,16 @@ class Planet {
     let diameter: Int
     let dayLength: Float
     let millionKMsFromSun: Float
+    let weight: Float
     
-    init(name: String, diameter: Int, dayLength: Float, millionKMsFromSun: Float) {
+    init(name: String, diameter: Int, dayLength: Float, millionKMsFromSun: Float, weight: Float) {
         
         self.name = name
         self.imageName = name.lowercaseString
         self.diameter = diameter
         self.dayLength = dayLength
         self.millionKMsFromSun = millionKMsFromSun
+        self.weight = weight 
         
     }
     
